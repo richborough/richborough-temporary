@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-
-    <title>Docker Nginx Static HTML Example</title>
-
+    <title>Together we are | Richborough</title>
     <script type="text/javascript">
     </script>
 
@@ -16,18 +14,54 @@
             margin-right: auto;
             width: 50%;
         }
-    </style>
 
+        .center {
+            border: 5px solid;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+        }
+
+        .navbar-brand {
+            margin: 0 !important;
+            font-weight: 400;
+            font-size: 40px;
+            color: #364B03;
+            width: auto;
+            border: none;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar-brand:hover {
+            color: #364B03;
+        }
+
+        .navbar-brand span {
+            color: #BC3C00;
+        }
+
+        .navbar-brand:hover span {
+            color: #BC3C00;
+        }
+        .navbar-brand h1 {
+            margin: 0;
+        }
+        .navbar-brand h2 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+    </style>
 </head>
 
 <body style="margin: 70px; background-color: aliceblue">
-
-    <h1 class="center">Docker Nginx Static HTML Example</h1>
-
-    <img src="EnglishCottage.jpg" class="center" />
-
-    <p class="center">Here's a beautiful English cottage for you. Enjoy!</p>
-
+    <a href="index.html" class="center navbar-brand ms-4 ms-lg-0">
+        <h1 class="display-5 m-0"><span>Rich</span>borough</h1>
+        <h2>Together <span>we are</span></h2>
+    </a>
 </body>
 
 </html>
